@@ -9,7 +9,7 @@ $('.btn-scroll').click(function(){
 })
 
 
-$('.features-1').click(function(){
+$('.js--feat').click(function(){
     $('html,body').animate({
         scrollTop:$('#section-3').offset().top
     },1000)
